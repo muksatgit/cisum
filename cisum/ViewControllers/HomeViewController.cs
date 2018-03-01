@@ -1,17 +1,17 @@
 using Foundation;
 using System;
 using UIKit;
-using cisum.pcl.ViewModal;
+using cisum.ViewModel;
 using GalaSoft.MvvmLight.Messaging;
-using cisum.pcl.Utils;
-using cisum.pcl.Model;
+using cisum.Utils;
+using cisum.Model;
 using cisum.ViewControllers;
 
 namespace cisum
 {
     public partial class HomeViewController : UIViewController
     {
-        HomeViewModal viewModal;
+        HomeViewModel viewModel;
         UITableView tableView;
         HomeViewControllerDataSource dataSource;
 
@@ -24,9 +24,9 @@ namespace cisum
         public override void ViewDidLoad()
         {
            
-            viewModal = new HomeViewModal();
-            viewModal.loadData();
-            Messenger.Default.Register<MovieResults>(this, (obj) => updateUI(obj));
+            viewModel = new HomeViewModel();
+            viewModel.loadData();
+            Messenger.Default.Register<APIResults>(this, (obj) => updateUI(obj));
 
             // Add Table VIew and set Constraints
             Add(tableView = new UITableView(this.View.Frame));
@@ -43,11 +43,11 @@ namespace cisum
 
 
 
-        public void updateUI(MovieResults movieResults)
+        public void updateUI(APIResults apiResults)
         {
             InvokeOnMainThread(() => 
             {
-                tableView.Source = dataSource = new HomeViewControllerDataSource(movieResults);
+                tableView.Source = dataSource = new HomeViewControllerDataSource(apiResults);
                 tableView.ReloadData();
             });
 

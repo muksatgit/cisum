@@ -3,10 +3,9 @@ using Newtonsoft.Json;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Collections.Generic;
-using cisum.pcl.Models;
-using cisum.pcl.Model;
+using cisum.Model;
 
-namespace cisum.pcl.Services
+namespace cisum.Services
 {
     public class BaseService
     {
@@ -26,10 +25,10 @@ namespace cisum.pcl.Services
 
 
         // understand this in detail
-        public async Task<List<Result>> fetchData()
+        public async Task<List<Item>> fetchData()
         {
-            List<Result> results = new List<Result>();
-            var uri = new Uri(String.Format("https://itunes.apple.com/search?term=*", string.Empty));
+            List<Item> results = new List<Item>();
+            var uri = new Uri(String.Format("https://itunes.apple.com/search?term=*&media=music", string.Empty));
             var response = await  client.GetAsync(uri);
 
             if(response.IsSuccessStatusCode)

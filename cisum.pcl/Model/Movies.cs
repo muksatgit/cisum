@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using cisum.pcl;
 
-namespace cisum.pcl.Models
+namespace cisum.Models
 {
     public class Movies
     {

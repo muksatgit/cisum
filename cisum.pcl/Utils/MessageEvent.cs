@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using cisum.pcl.Model;
-namespace cisum.pcl.Utils
+using cisum.Model;
+namespace cisum.Utils
 {
     
-    public class MovieResults
+    public class APIResults
     {
 
-        public List<Result> MovieResult { set; get; }
+        public List<Item> APIResult { set; get; }
     }
 }

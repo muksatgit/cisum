@@ -6,8 +6,8 @@
 	<dict>
 		<key>output-files</key>
 		<array>
-			<string>/Sapient/Repo/Xamarin/cisum/cisum/cisum/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/bundle/Assets.car</string>
-			<string>/Sapient/Repo/Xamarin/cisum/cisum/cisum/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/partial-info.plist</string>
+			<string>/Sapient/Repo/Xamarin/cisum/cisum/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/bundle/Assets.car</string>
+			<string>/Sapient/Repo/Xamarin/cisum/cisum/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/actool/partial-info.plist</string>
 		</array>
 	</dict>
 </dict>

@@ -1,9 +1,9 @@
 # Version: 11.6.1.2 (xcode9.2: 6857dfcc)
 # [first argument, ignore] # --cache
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mtouch/mtouch.exe \
-	/Sapient/Repo/Xamarin/cisum/cisum/cisum/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache \
+	/Sapient/Repo/Xamarin/cisum/cisum/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache \
 	--sim \
-	/Sapient/Repo/Xamarin/cisum/cisum/cisum/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/cisum.app \
+	/Sapient/Repo/Xamarin/cisum/cisum/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/cisum.app \
 	--executable \
 	cisum \
 	--debug \
@@ -18,12 +18,22 @@
 	--http-message-handler=HttpClientHandler \
 	--abi=x86_64 \
 	--symbollist \
-	/Sapient/Repo/Xamarin/cisum/cisum/cisum/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-symbols.list \
+	/Sapient/Repo/Xamarin/cisum/cisum/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-symbols.list \
 	--dsym=no \
 	-r \
-	/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/bin/Debug/cisum.pcl.dll \
+	/Sapient/Repo/Xamarin/cisum/cisum.pcl/bin/Debug/cisum.pcl.dll \
+	-r \
+	/Sapient/Repo/Xamarin/cisum/packages/CommonServiceLocator.2.0.2/lib/netstandard2.0/CommonServiceLocator.dll \
+	-r \
+	/Sapient/Repo/Xamarin/cisum/packages/MvvmLightLibs.5.4.1/lib/xamarin.ios10/GalaSoft.MvvmLight.dll \
+	-r \
+	/Sapient/Repo/Xamarin/cisum/packages/MvvmLightLibs.5.4.1/lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.dll \
+	-r \
+	/Sapient/Repo/Xamarin/cisum/packages/MvvmLightLibs.5.4.1/lib/xamarin.ios10/GalaSoft.MvvmLight.Platform.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Sapient/Repo/Xamarin/cisum/packages/Newtonsoft.Json.11.0.1/lib/netstandard2.0/Newtonsoft.Json.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
@@ -307,9 +317,17 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/bin/Debug/cisum.pcl.dll \
+	/Sapient/Repo/Xamarin/cisum/cisum.pcl/bin/Debug/cisum.pcl.dll \
 	-r \
-	/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/bin/Debug/Newtonsoft.Json.dll \
+	/Sapient/Repo/Xamarin/cisum/packages/CommonServiceLocator.2.0.2/lib/netstandard2.0/CommonServiceLocator.dll \
+	-r \
+	/Sapient/Repo/Xamarin/cisum/packages/MvvmLightLibs.5.4.1/lib/xamarin.ios10/GalaSoft.MvvmLight.dll \
+	-r \
+	/Sapient/Repo/Xamarin/cisum/packages/MvvmLightLibs.5.4.1/lib/xamarin.ios10/GalaSoft.MvvmLight.Extras.dll \
+	-r \
+	/Sapient/Repo/Xamarin/cisum/packages/MvvmLightLibs.5.4.1/lib/xamarin.ios10/GalaSoft.MvvmLight.Platform.dll \
+	-r \
+	/Sapient/Repo/Xamarin/cisum/packages/Newtonsoft.Json.11.0.1/lib/netstandard2.0/Newtonsoft.Json.dll \
 	--target-framework \
 	'Xamarin.iOS,v1.0' \
-	/Sapient/Repo/Xamarin/cisum/cisum/cisum/bin/iPhoneSimulator/Debug/cisum.exe \
+	/Sapient/Repo/Xamarin/cisum/cisum/bin/iPhoneSimulator/Debug/cisum.exe \

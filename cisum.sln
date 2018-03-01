@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cisum.ios", "cisum\cisum.ios.csproj", "{4C3BD7C7-E71E-4195-ACBA-E618C2038B34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cisum.pcl", "cisum.pcl\cisum.pcl.csproj", "{E8A31287-14C9-416E-B49B-EA00AB0A3BF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cisum", "cisum.pcl\cisum.csproj", "{E8A31287-14C9-416E-B49B-EA00AB0A3BF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

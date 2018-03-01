@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using cisum.pcl.Utils;
+using cisum.Utils;
 using Foundation;
 using UIKit;
 
@@ -8,17 +8,17 @@ namespace cisum.ViewControllers
 {
     public class HomeViewControllerDataSource:UITableViewSource
     {
-        const string CellId = "MovieCell";
+        const string CellId = "Cell";
 
-        MovieResults movieResults;
+        APIResults apiResults;
 
         public HomeViewControllerDataSource()
         {
         }
 
-        public HomeViewControllerDataSource(MovieResults movieResults)
+        public HomeViewControllerDataSource(APIResults apiResults)
         {
-            this.movieResults = movieResults;
+            this.apiResults = apiResults;
         }
 
         public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
@@ -33,9 +33,9 @@ namespace cisum.ViewControllers
                 cell.DetailTextLabel.TextColor = UIColor.LightGray;
             }
 
-            var movie = this.movieResults.MovieResult[indexPath.Row];
-            cell.TextLabel.Text = movie.artistName;
-            cell.DetailTextLabel.Text = movie.trackName;
+            var item = this.apiResults.APIResult[indexPath.Row];
+            cell.TextLabel.Text = item.artistName;
+            cell.DetailTextLabel.Text = item.trackName;
           
             return cell;
                                             
@@ -45,9 +45,9 @@ namespace cisum.ViewControllers
 
         public override nint RowsInSection(UITableView tableview, nint section)
         {
-            if (this.movieResults != null)
+            if (this.apiResults != null)
             {
-                return this.movieResults.MovieResult.Count;
+                return this.apiResults.APIResult.Count;
             }
 
             return 0;
