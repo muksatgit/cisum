@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{4C3BD7C7-E71E-4195-ACBA-E618C2038B34}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="cisum/ViewControllers/HomeViewControllerDataSource.cs">
+    <Files>
+      <File FileName="../../../../../Users/mshar3/Downloads/IOS110-master/Exercise 5/Completed/Mailbox/ViewController.cs" Line="71" Column="37" />
+      <File FileName="cisum/Main.storyboard" />
+      <File FileName="cisum/ViewControllers/HomeViewController.cs" Line="41" Column="69" />
+      <File FileName="cisum/Main.cs" Line="16" Column="1" />
+      <File FileName="cisum.pcl/Model/Result.cs" Line="34" Column="44" />
+      <File FileName="cisum.pcl/ViewModal/HomeViewModal.cs" Line="18" Column="10" />
+      <File FileName="cisum.pcl/Services/BaseService.cs" Line="3" Column="1" />
+      <File FileName="cisum/ViewControllers/HomeViewControllerDataSource.cs" Line="14" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.cisum.ios PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7507CA58-4254-4668-838F-C480821ACC00" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Sapient/Repo/Xamarin/cisum/cisum/cisum/Services/CloudDataStore.cs" relfile="cisum/Services/CloudDataStore.cs" line="28" column="1" />
+      <Breakpoint file="/Sapient/Repo/Xamarin/cisum/cisum/cisum/Services/CloudDataStore.cs" relfile="cisum/Services/CloudDataStore.cs" line="26" column="9" />
+      <Breakpoint file="/Sapient/Repo/Xamarin/cisum/cisum/iOS/HomeViewController.cs" relfile="iOS/HomeViewController.cs" line="14" column="13" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.cisum.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A65B39F1-56ED-4E57-BCB1-83CF9BA53CBE">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.cisum.iOS>
+</Properties>

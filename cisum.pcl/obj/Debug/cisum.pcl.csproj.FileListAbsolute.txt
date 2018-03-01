@@ -1,0 +1,16 @@
+/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/obj/Debug/cisum.pcl.csprojResolveAssemblyReference.cache
+/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/obj/Debug/cisum.pcl.csproj.CoreCompileInputs.cache
+/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/bin/Debug/cisum.pcl.dll
+/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/bin/Debug/cisum.pcl.pdb
+/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/bin/Debug/Newtonsoft.Json.dll
+/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/bin/Debug/Newtonsoft.Json.xml
+/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/obj/Debug/cisum.pcl.dll
+/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/obj/Debug/cisum.pcl.pdb
+/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/bin/Debug/CommonServiceLocator.dll
+/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/bin/Debug/GalaSoft.MvvmLight.dll
+/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/bin/Debug/GalaSoft.MvvmLight.Extras.dll
+/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/bin/Debug/System.Runtime.InteropServices.RuntimeInformation.dll
+/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/bin/Debug/GalaSoft.MvvmLight.pdb
+/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/bin/Debug/GalaSoft.MvvmLight.xml
+/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/bin/Debug/GalaSoft.MvvmLight.Extras.pdb
+/Sapient/Repo/Xamarin/cisum/cisum/cisum.pcl/bin/Debug/GalaSoft.MvvmLight.Extras.xml
